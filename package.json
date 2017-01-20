@@ -1,0 +1,23 @@
+{
+  "name": "parse-magnet-uri",
+  "version": "1.0.1",
+  "description": "Parse a magnet link to something useful for a Bittorent app",
+  "main": "parse-magnet-uri.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./parse-magnet-uri.ts"
+  },
+  "author": "Craig OConnor",
+  "repository" : {
+    "type" : "git",
+    "url" : ""
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.0",
+    "nodemon": "^1.11.0",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5"
+  }
+}
