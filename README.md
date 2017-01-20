@@ -6,7 +6,7 @@ Both decoding and encoding are supported.
 Simple and fast.
 Easy to use.
 
-Taken data from [here](https://en.wikipedia.org/wiki/Magnet_URI_scheme#Keywords_.28kt.29)
+Using the schema from [here](https://en.wikipedia.org/wiki/Magnet_URI_scheme).
 
 ## Install
 
