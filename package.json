@@ -9,9 +9,9 @@
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./parse-magnet-uri.ts"
   },
   "author": "Craig OConnor",
-  "repository" : {
-    "type" : "git",
-    "url" : ""
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "license": "ISC",
   "devDependencies": {
@@ -19,5 +19,8 @@
     "nodemon": "^1.11.0",
     "ts-node": "^2.0.0",
     "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "thirty-two": "^1.0.2"
   }
 }
