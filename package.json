@@ -1,6 +1,6 @@
 {
   "name": "parse-magnet-uri",
-  "version": "2.2.2",
+  "version": "2.2.5",
   "description": "Parse a magnet link to something useful for a Bittorent app",
   "main": "parse-magnet-uri.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "Craig OConnor",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/CraigglesO/parse-magnet-uri.git"
   },
   "license": "ISC",
   "devDependencies": {
