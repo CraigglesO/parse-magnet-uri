@@ -1,6 +1,7 @@
 "use strict";
 const buffer_1 = require("buffer");
 const lodash_1 = require("lodash");
+var base32 = require('thirty-two');
 function parseMagnet(magnet) {
     let result = {
         xt: [],
@@ -21,7 +22,7 @@ function parseMagnet(magnet) {
         if (param.substring(0, 2) === 'xt') {
             result['xt'].push(param.slice(3));
             if (param.substring(3, 12) === 'urn:btih:') {
-                result['infoHash'] = param.slice(12);
+                result['infoHash'] = base32.decode(param.slice(12)).toString('hex');
             }
         }
         else if (param.substring(0, 2) === 'xs') {
