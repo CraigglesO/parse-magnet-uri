@@ -11,7 +11,7 @@
 import { Buffer } from 'buffer';
 import { uniq }   from 'lodash';
 
-var base32 = require('thirty-two');
+const base32 = require('thirty-two');
 
 interface Magnet {
   xt:             string | Array<string> // xt (Exact Topic) – URN containing file hash

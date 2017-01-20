@@ -3,6 +3,7 @@
 ### Parse a magnet link to something useful for a Bittorent app
 
 Both decoding and encoding are supported.
+Support for base32.
 Simple and fast.
 Easy to use.
 

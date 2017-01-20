@@ -1,7 +1,7 @@
 "use strict";
 const buffer_1 = require("buffer");
 const lodash_1 = require("lodash");
-var base32 = require('thirty-two');
+const base32 = require('thirty-two');
 function parseMagnet(magnet) {
     let result = {
         xt: [],
