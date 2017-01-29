@@ -1,4 +1,11 @@
-# parse-magnet-uri
+# parse-magnet-uri [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+
+[travis-image]: https://travis-ci.org/CraigglesO/parse-magnet-uri.svg?branch=master
+[travis-url]: https://travis-ci.org/CraigglesO/parse-magnet-uri
+[npm-image]: https://img.shields.io/npm/v/parse-magnet-uri.svg
+[npm-url]: https://npmjs.org/package/parse-magnet-uri
+[downloads-image]: https://img.shields.io/npm/dm/parse-magnet-uri.svg
+[downloads-url]: https://npmjs.org/package/parse-magnet-uri
 
 ### Parse a magnet link to something useful for a Bittorent app
 
