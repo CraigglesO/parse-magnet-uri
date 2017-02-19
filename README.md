@@ -1,5 +1,7 @@
 # parse-magnet-uri [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/CraigglesO/parse-magnet-uri.svg)](https://greenkeeper.io/)
+
 [travis-image]: https://travis-ci.org/CraigglesO/parse-magnet-uri.svg?branch=master
 [travis-url]: https://travis-ci.org/CraigglesO/parse-magnet-uri
 [npm-image]: https://img.shields.io/npm/v/parse-magnet-uri.svg
