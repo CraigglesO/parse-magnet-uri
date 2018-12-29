@@ -31,7 +31,7 @@
     "blue-tape": "^1.0.0",
     "nodemon": "^1.11.0",
     "tap-spec": "^4.1.1",
-    "tape": "^4.6.3",
+    "tape": "^4.9.2",
     "ts-node": "^3.0.1",
     "typescript": "^2.1.5",
     "onchange": "^3.2.1",
